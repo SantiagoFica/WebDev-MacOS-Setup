@@ -7,7 +7,7 @@
        
        
     declare -a cask_apps=(
-        'visual-studio-code’
+        ‘visual-studio-code’
         ‘atom’
         ‘sublime-text’
         ‘flux’
