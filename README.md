@@ -1,12 +1,16 @@
 # WebDev-MacOS-Setup
 
-    
-    // Para instalar utilizando Cask
-    // *Revisar listado de aplicaciones
-       // brew search
+
+// Para instalar utilizando Cask
+// *Revisar listado de aplicaciones
+   // brew search
+       
+       
     declare -a cask_apps=(
-        ‘1password’
-        ‘adobe-creative-cloud’
+        'visual-studio-code’
+        ‘atom’
+        ‘sublime-text’
+        ‘flux’
         ‘alfred’
         ‘authy’
         ‘bartender’
@@ -16,6 +20,7 @@
         ‘gitkraken’
         ‘google-backup-and-sync’
         ‘google-chrome’
+        ‘firefox’
         ‘iterm2-nightly’
         ‘keepingyouawake’
         ‘postman’
@@ -23,9 +28,9 @@
         ‘sip’
         ‘skype’
         ‘slack’
-        ‘sublime-text’
         ‘sequel-pro’
         ‘transmit’
+        ‘spotify’
     )
 
     for app in "${cask_apps[@]}"; do
